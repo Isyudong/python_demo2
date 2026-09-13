@@ -1,0 +1,19 @@
+camera:
+  exposure_time: 30000
+  target_resolution: null
+  mono_camera: false
+serial:
+  port: /dev/ttyUSB0
+  baudrate: 115200
+  timeout: 5
+  connection_timeout: 8
+  retry_count: 3
+  read_timeout: 2
+  write_timeout: 2
+motor:
+  x_axis:
+    steps_per_mm: 40
+    max_position: 300
+  y_axis:
+    steps_per_mm: 40
+    max_position: 200

@@ -1,0 +1,44 @@
+mode: sim
+pixel_per_mm: 4.4
+detection:
+  dp: 1.5
+  min_dist: 20
+  param1: 250
+  param2: 14
+  min_radius: 10
+  max_radius: 20
+  blur_radius: 1
+  median_ksize: 3
+hsv_filter:
+  h_min: 14
+  h_max: 170
+  s_min: 100
+  s_max: 255
+  v_min: 180
+  v_max: 255
+preview_fps: 15
+detect_fps: 0
+comm:
+  timeout: 5.0
+  retries: 2
+  heartbeat_interval: 5
+writer:
+  max_queue: 50
+logging:
+  enabled: true
+  file: logs/system.log
+  level: INFO
+calibration:
+  enabled: false
+  points: []
+simulation:
+  camera_delay: 0.1
+  arduino_delay: 0.05
+  image_width: 640
+  image_height: 480
+  noise_level: 0.0
+  camera:
+    image_dir: test_images
+    frame_rate: 10
+  arduino:
+    move_delay: 0.3

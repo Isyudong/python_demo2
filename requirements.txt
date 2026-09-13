@@ -1,0 +1,22 @@
+# 黄鳝鱼卵剔除系统 — Python 依赖清单
+# =========
+
+# PySide6 (Qt 绑定）
+pyside6>=6.5.0
+
+# 数值计算
+numpy>=1.24.0
+
+# OpenCV (cv2)
+opencv-python>=4.8.0
+
+# YAML 配置文件支持
+pyyaml>=6.0
+
+# 串口通信 (Arduino)
+pyserial>=3.5
+
+# （可选）开发工具
+# pytest>=7.0        # 单元测试
+# black>=23.0        # 代码格式化
+# flake8>=6.0       # 代码风格检查
